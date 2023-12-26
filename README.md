@@ -7,6 +7,8 @@
 
 BlackHatMap.py is a Python tool designed for visualizing geolocation data of IP addresses related to cybersecurity threats. It utilizes data from various sources to map the geographic locations of potentially malicious IP addresses.
 
+- Provided is a ip_map.html previously generated based on the CardingMafia.csv database using the all time abuseipdb database. 
+
 ## 📚 Description
 
 The tool works by combining data from the `abuseipdb` database and the `dbip-city` file to plot IP addresses on an interactive map. IPs flagged for abuse are checked against geolocation data to display their origins visually using Folium maps.
