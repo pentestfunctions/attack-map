@@ -38,7 +38,7 @@ The tool works by combining data from the `abuseipdb` database and the `dbip-cit
    ```
 
 ## Usage
-Run `blackhatmap.py` with the required database files. Ensure you have the following files in your directory:
+Run `BlackHatMap.py` with the required database files. Ensure you have the following files in your directory:
 
 [AbuseIPDB Blocklist](https://github.com/borestad/blocklist-abuseipdb)
 [DBIP-Country CSV](https://cdn.jsdelivr.net/npm/@ip-location-db/dbip-country/dbip-country-ipv4.csv)
@@ -50,7 +50,7 @@ Run `blackhatmap.py` with the required database files. Ensure you have the follo
 
 
 ## 🛠️ Example
-Here's how to use the IPAnalyzer class:
+Here's how to use the IPAnalyzer class, simply modify the your_database.csv file with any file you wish to load and make a map of.
    ```sh
    ip_analyzer = IPAnalyzer('your_database.csv', 'abuseipdb_file.csv', 'dbip_city_file.csv')
    matched_ips = ip_analyzer.find_and_match_ips()
